@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Root colour */
+:root {
+    --reddish-Pink: #DA0463;
+    --deep-Blue: #001738;
+}
+
+body {
+    background-color: var(--deep-Blue);
+    text-align: center;
+}
+
+
+#title {
+    font-size: 3rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 0.3vw 0 #DA0463;
+    margin-top: 1rem;
+}
+
+
+footer {
+    color: #DBEDF3;
+    font-family: 'Arvo', cursive;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.w {
+    background-image: url(Assets/images/tom1.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.a {
+    background-image: url(Assets/images/tom2.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s {
+    background-image: url(Assets/images/tom3.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.d {
+    background-image: url(Assets/images/tom4.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.j {
+    background-image: url(Assets/images/snare.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.k {
+    background-image: url(Assets/images/crash.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.l {
+    background-image: url(Assets/images/kick.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.set {
+    margin-top: 10%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: var(--reddish-Pink);
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+
+/* Responsive styleSheet for mobile screens */
+ 
+@media only screen and (max-width:600px) {
+
+    #title{
+        font-size: 5vw;
+    }
+
+    .drum{
+        width: 100px;
+        height: 100px;
+        font-size: 3rem;
+    }
+} 
