@@ -2,8 +2,6 @@
 
 **Drum-kit** is a fully responsive virtual drum set built using HTML, CSS, and JavaScript. It allows users to play drum sounds via mouse clicks or keyboard keys, making it a fun and interactive way to simulate playing drums directly in the browser.
 
-![Drum-kit Screenshot](./assets/screenshot.png) <!-- Replace with actual path or remove if not using -->
-
 ## 🚀 Features
 
 - 🎧 Realistic drum sounds
@@ -42,3 +40,4 @@ git clone https://github.com/yourusername/Drum-kit.git
 cd Drum-kit
 open index.html
 ```
+made with ❤️ in India.
